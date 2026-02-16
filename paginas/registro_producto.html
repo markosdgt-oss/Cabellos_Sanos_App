@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CabellosSanos/registro_producto.com</title>
+    <link rel="stylesheet" href="/css/estilosregistro_proveedor.css">
+    <script type="text/javascript" src="js/scriptregistro.js"></script>
+</head>
+<body>
+    <div>
+        <header>
+            <h3>CABELLOS SANOS</h3>
+            <h4>Nutrición superior, resultados increíbles!</h4>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/paginas/menu.html">Inicio</a></li>
+                <li><a href="/paginas/nosotros.html">Nuestar Empresa</a></li>
+                <li><a href="/paginas/registro_usuarios.html">Registrarse</a></li>
+                <li><a href="/paginas/categorias.html">Categorias</a></li>
+                <li><a href="/paginas/Productos.html">Productos</a></li>
+                <li><a href="/paginas/servicios.html">Servicios</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                    <h2>Registrar Producto</h2>
+                    <form id="registroForm" onsubmit="return validarFormulario(event)">
+        <div class="form-group">
+            <label for="nombres">Codigo del producto:</label>
+            <input type="text" id="nombres" name="nombres" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Nombre del producto:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Categoria:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+
+        <div class="form-group">
+            <label for="numeroDocumento">Descripcion:</label>
+            <input type="text" id="numeroDocumento" name="numeroDocumento" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Precio de compra:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="direccion">Precio de venta:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+
+        <div class="form-group">
+            <label for="direccion">Existencia:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <button type="submit">Registrar</button>
+
+        <p class="message error-message" id="errorMsg">⚠️ Por favor, complete todos los campos.</p>
+        <p class="message success-message" id="successMsg">✅ Registro exitoso. Datos enviados a la consola.</p>
+
+    </form>
+        
+            </article>
+        </section>
+        
+        <footer>
+            <h4>Cabellos Sanos. Todos los derechos revservados. Autorizado por Marco Fidel Suarez. Octubre de 2025.</h4>
+            <div>
+                <h3>Cabellos Sanos Productos para el cuidado Capilar</h3>
+                <p>Direccion Calle 17 #1w 50 Bucaramanga, Santander</p>
+                <p>WhatsApp: +57 318 634 6427</p>
+                <p>Escríbenos: pqrs@cabsan.com</p>
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
+</html>

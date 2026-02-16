@@ -1,0 +1,166 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+div{
+    width: 1000px;
+    height: 800px;
+    background: #FFFFFF
+    border 2px solid #E9D7FA
+    padding 10px;
+    margin: auto;
+}
+
+header{
+    background: #D1BBE0;
+    text-align: center;
+    padding: 25px;
+    font-family: arial;
+    object-fit: cover;
+    line-height: 40px;
+}
+
+nav{
+    background: #C280E0;
+    color: #CBCEE3;
+    margin: 3px 0px;
+    padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #facefc;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #de93fc;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li{
+    list-style: none;
+    margin-right: 40px;
+    display: inline-block;
+    color: #FFFFFF
+    padding 0px 10px;
+    font-family: Arial;
+}
+
+section{
+    background: #D8D8E2;
+    margin: 3px 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 750px;
+    height: 580;
+    float: left;
+}
+h2{
+    background: #D1BBE0;
+    text-align: center;
+    width: 1000;
+    height: 35px
+}
+
+h3{
+    text-align: center;
+    font-family: Arial;
+    padding: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: Times New Roman;
+    line-height: 30px;
+}
+
+img{
+    width: 750px;
+    height: auto;
+    object-fit: cover;
+}
+
+aside{
+    background: #D1BBE0;
+    margin: 3px 0px;
+    padding: 0px;
+    width: 250px;
+    float: right;
+    height: 275px;
+    line-height: 40px;
+}
+
+#WIDGET-CHAT-UNICO {
+    all: unset !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    z-index: 2147483647 !important;
+    font-family: sans-serif !important;
+}
+
+#WIDGET-CHAT-UNICO div {
+    all: unset !important;
+    display: block !important;
+    box-sizing: border-box !important;
+}
+
+#WIDGET-CHAT-UNICO .burbuja-texto {
+    background-color: white !important;
+    color: #333 !important;
+    padding: 10px 15px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+    margin-right: 10px !important;
+    font-size: 14px !important;
+    border: 1px solid #ddd !important;
+}
+
+#WIDGET-CHAT-UNICO .boton-circular {
+    all: unset !important;
+    width: 60px !important;
+    height: 60px !important;
+    background-color: #25D366 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+}
+footer{
+    background: #C062E0;
+    text-align: center;
+    color: #000000;
+    clear: both;
+    padding: 0px;
+    line-height: 35px;
+}

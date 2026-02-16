@@ -1,0 +1,228 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+div{
+    width: 1000px;
+    height: 60px;
+    background: #FFFFFF
+    border 2px solid #E9D7FA
+    padding 10px;
+    margin: auto;
+}
+
+header{
+    background: #D1BBE0;
+    text-align: center;
+    padding: 25px;
+    font-family: arial;
+    object-fit: cover;
+}
+
+nav{
+    background: #C280E0;
+    color: #CBCEE3;
+    margin: 3px 0px;
+    padding: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #facefc;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #de93fc;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+li{
+    list-style: none;
+    margin-right: 35px;
+    display: inline-block;
+    color: #FFFFFF
+    padding 0px 10px;
+}
+
+h2{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: Arial;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#registroForm {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.95em;
+}
+
+input[type="text"], 
+input[type="email"], 
+select {
+    width: 42%;
+    padding: 10px;
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los mensajes de respuesta */
+.message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: bold;
+    display: none; /* Oculto por defecto, JavaScript lo mostrará */
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+aside{
+    background: #D1BBE0;
+    margin: 3px 0px;
+    padding: 0px;
+    width: 250px;
+    float: right;
+    height: 348px;
+}
+
+#WIDGET-CHAT-UNICO {
+    all: unset !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    z-index: 2147483647 !important;
+    font-family: sans-serif !important;
+}
+
+#WIDGET-CHAT-UNICO div {
+    all: unset !important;
+    display: block !important;
+    box-sizing: border-box !important;
+}
+
+#WIDGET-CHAT-UNICO .burbuja-texto {
+    background-color: white !important;
+    color: #333 !important;
+    padding: 10px 15px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+    margin-right: 10px !important;
+    font-size: 14px !important;
+    border: 1px solid #ddd !important;
+}
+
+#WIDGET-CHAT-UNICO .boton-circular {
+    all: unset !important;
+    width: 60px !important;
+    height: 60px !important;
+    background-color: #25D366 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+}
+
+footer{
+    background: #C062E0;
+    text-align: center;
+    color: #000000;
+    clear: both;
+    padding: 35px;
+    line-height: 25px;
+}
